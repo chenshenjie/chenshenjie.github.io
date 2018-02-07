@@ -26,7 +26,7 @@
 		<div id="loveHeart">
 			<canvas id="garden"></canvas>
 			<div id="words">
-				<div id="messages">
+				<div id="messages" style="text-align: center;">
 					亲爱的，这是我们相爱在一起的时光。
 					<div id="elapseClock" style="font-size: 30px;text-align: center;"></div>
 				</div>
@@ -63,7 +63,7 @@ if (!document.createElement('canvas').getContext) {
 } else {
 	setTimeout(function () {
 		startHeartAnimation();
-	}, 5000);
+	}, 2000);
 
 	timeElapse(together);
 	setInterval(function () {
